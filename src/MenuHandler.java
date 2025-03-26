@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class MenuHandler {
     private final Scanner scanner = new Scanner(System.in);
-    private final UserService userService = new UserService();
+    private final UserHelper userService = new UserHelper();
     private final CustomerService customerService = new CustomerService();
     private final FlightService flightService = new FlightService();
     private final RolesAndPermissions roles = new RolesAndPermissions();
